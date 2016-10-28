@@ -1,0 +1,91 @@
+
+.container1{
+  height: 600px;
+  width: 100%;
+}
+.image{
+  height: 600px;
+  width: 1300;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.navcontainer{
+  background-color:#333;
+  position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container2 {
+        /* add code */
+        height: 300px;
+        width: 100%;
+  background-color: grey;
+
+}
+
+.box1,.box2,.box3{
+  height: 250px;
+  width: 25%;
+  background-color: #333;
+  display: inline;
+}
+.container3{
+  height: 800px;
+  width: 100%;
+  text-align: center;
+}
+.Report{
+  background-color: #4CAF50;
+  height: 200px;
+  width: 90%;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.suggestion{
+  background-color: #4CAF50;
+  height: 200px;
+  width: 90%;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.container4{
+  height: 800px;
+  width: 100%;
+  background-color: grey;
+}
+.contact{
+
+  text-align: center;
+
+}
